@@ -1,0 +1,16 @@
+/home/maneesh/dev_ws/install/web_video_server/lib/web_video_server/web_video_server
+/home/maneesh/dev_ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+/home/maneesh/dev_ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/environment/path.sh
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/environment/path.dsv
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/local_setup.bash
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/local_setup.sh
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/local_setup.zsh
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/local_setup.dsv
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/package.dsv
+/home/maneesh/dev_ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+/home/maneesh/dev_ws/install/web_video_server/share/web_video_server/package.xml

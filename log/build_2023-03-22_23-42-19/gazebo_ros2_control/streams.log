@@ -1,0 +1,118 @@
+[0.043s] Invoking command in '/home/maneesh/dev_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maneesh/dev_ws/build/gazebo_ros2_control -- -j16 -l16
+[0.078s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.279s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.293s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[0.295s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[0.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.529s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.165s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.437s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[1.500s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.543s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.547s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.553s] -- Searching for dependencies of ignition-math6
+[1.555s] -- Looking for OGRE...
+[1.565s] -- Found Ogre Ghadamon (1.9.0)
+[1.565s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.577s] -- Looking for OGRE_Paging...
+[1.577s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.577s] -- Looking for OGRE_Terrain...
+[1.577s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.577s] -- Looking for OGRE_Property...
+[1.577s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.577s] -- Looking for OGRE_RTShaderSystem...
+[1.577s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.578s] -- Looking for OGRE_Volume...
+[1.578s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.578s] -- Looking for OGRE_Overlay...
+[1.578s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.665s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.666s] -- Looking for ignition-transport8 -- found version 8.4.0
+[1.666s] -- Searching for dependencies of ignition-transport8
+[1.685s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.700s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.708s] -- Checking for module 'libzmq >= 4'
+[1.733s] --   Found libzmq , version 4.3.2
+[1.807s] -- Checking for module 'uuid'
+[1.834s] --   Found uuid, version 2.34.0
+[1.902s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.903s] -- Searching for dependencies of ignition-msgs5
+[1.925s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.940s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.940s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.940s] -- Searching for dependencies of ignition-common3
+[1.941s] -- Looking for dlfcn.h - found
+[1.941s] -- Looking for libdl - found
+[1.953s] -- Searching for <ignition-common3> component [graphics]
+[1.954s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[1.954s] -- Searching for dependencies of ignition-common3-graphics
+[1.954s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.956s] -- Looking for ignition-fuel_tools4 -- found version 4.8.2
+[1.956s] -- Searching for dependencies of ignition-fuel_tools4
+[1.995s] -- Checking for module 'jsoncpp'
+[2.018s] --   Found jsoncpp, version 1.7.4
+[2.094s] -- Checking for module 'libzip'
+[2.118s] --   Found libzip, version 1.5.1
+[2.181s] -- Looking for ignition-common3 -- found version 3.15.1
+[2.182s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.183s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.185s] -- Gazebo version: 11.12
+[2.187s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.194s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[2.194s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.340s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.341s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.398s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.399s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.399s] -- Configured cppcheck include dirs: /home/maneesh/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control/include
+[2.399s] -- Configured cppcheck exclude dirs and/or files: 
+[2.400s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.400s] -- Configured cpplint exclude dirs and/or files: 
+[2.400s] -- Added test 'lint_cmake' to check CMake code style
+[2.401s] -- Added test 'uncrustify' to check C / C++ code style
+[2.401s] -- Configured uncrustify additional arguments: 
+[2.401s] -- Added test 'xmllint' to check XML markup files
+[2.405s] -- Configuring done
+[2.466s] -- Generating done
+[2.468s] -- Build files have been written to: /home/maneesh/dev_ws/build/gazebo_ros2_control
+[2.505s] [35m[1mScanning dependencies of target gazebo_ros2_control[0m
+[2.529s] [ 25%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[2.589s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[3.258s] [ 75%] Built target gazebo_hardware_plugins
+[13.053s] [100%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[13.838s] [100%] Built target gazebo_ros2_control
+[13.849s] Invoked command in '/home/maneesh/dev_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maneesh/dev_ws/build/gazebo_ros2_control -- -j16 -l16
+[13.875s] Invoking command in '/home/maneesh/dev_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maneesh/dev_ws/build/gazebo_ros2_control
+[13.888s] -- Install configuration: ""
+[13.888s] -- Execute custom install script
+[13.888s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[13.888s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[13.889s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[13.889s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[13.889s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[13.889s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[13.889s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[13.890s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[13.890s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[13.890s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[13.890s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[13.890s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[13.891s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[13.891s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[13.891s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[13.891s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[13.891s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[13.891s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[13.891s] -- Symlinking: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[13.905s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[13.906s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[13.906s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.907s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.907s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[13.908s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[13.908s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[13.908s] -- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[13.914s] Invoked command in '/home/maneesh/dev_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maneesh/dev_ws/build/gazebo_ros2_control

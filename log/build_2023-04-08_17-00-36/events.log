@@ -1,0 +1,457 @@
+[0.000000] (-) TimerEvent: {}
+[0.000342] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000544] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000701] (web_video_server) JobQueued: {'identifier': 'web_video_server', 'dependencies': OrderedDict()}
+[0.001071] (gazebo_ros2_control_demos) JobQueued: {'identifier': 'gazebo_ros2_control_demos', 'dependencies': OrderedDict([('gazebo_ros2_control', '/home/maneesh/dev_ws/install/gazebo_ros2_control')])}
+[0.001125] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.013770] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.022520] (web_video_server) JobStarted: {'identifier': 'web_video_server'}
+[0.036596] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.038117] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[0.039197] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maneesh/dev_ws/build/gazebo_ros2_control', '--', '-j16', '-l16'], 'cwd': '/home/maneesh/dev_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'maneesh'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maneesh'), ('OLDPWD', '/home/maneesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maneesh/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maneesh'), ('JOURNAL_STREAM', '8:55414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maneesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maneesh-IdeaPad-5-15ALC05:@/tmp/.ICE-unix/1855,unix/maneesh-IdeaPad-5-15ALC05:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '0d0cc04b7f534ca09f3bbf50c918e6de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59a66b10_37bb_4417_9b54_38b7d8f50406'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maneesh/dev_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy')]), 'shell': False}
+[0.045236] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.045831] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.046018] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maneesh/dev_ws/build/my_bot', '--', '-j16', '-l16'], 'cwd': '/home/maneesh/dev_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'maneesh'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maneesh'), ('OLDPWD', '/home/maneesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maneesh/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maneesh'), ('JOURNAL_STREAM', '8:55414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maneesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maneesh-IdeaPad-5-15ALC05:@/tmp/.ICE-unix/1855,unix/maneesh-IdeaPad-5-15ALC05:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '0d0cc04b7f534ca09f3bbf50c918e6de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59a66b10_37bb_4417_9b54_38b7d8f50406'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maneesh/dev_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy')]), 'shell': False}
+[0.051669] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'cmake'}
+[0.052352] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'build'}
+[0.052610] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maneesh/dev_ws/build/web_video_server', '--', '-j16', '-l16'], 'cwd': '/home/maneesh/dev_ws/build/web_video_server', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'maneesh'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maneesh'), ('OLDPWD', '/home/maneesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maneesh/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maneesh'), ('JOURNAL_STREAM', '8:55414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maneesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maneesh-IdeaPad-5-15ALC05:@/tmp/.ICE-unix/1855,unix/maneesh-IdeaPad-5-15ALC05:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '0d0cc04b7f534ca09f3bbf50c918e6de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59a66b10_37bb_4417_9b54_38b7d8f50406'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maneesh/dev_ws/build/web_video_server'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy')]), 'shell': False}
+[0.099795] (-) TimerEvent: {}
+[0.200178] (-) TimerEvent: {}
+[0.300645] (-) TimerEvent: {}
+[0.326511] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.334264] (my_bot) CommandEnded: {'returncode': 0}
+[0.350378] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.355016] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.367847] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maneesh/dev_ws/build/my_bot'], 'cwd': '/home/maneesh/dev_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'maneesh'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maneesh'), ('OLDPWD', '/home/maneesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maneesh/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maneesh'), ('JOURNAL_STREAM', '8:55414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maneesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maneesh-IdeaPad-5-15ALC05:@/tmp/.ICE-unix/1855,unix/maneesh-IdeaPad-5-15ALC05:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '0d0cc04b7f534ca09f3bbf50c918e6de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59a66b10_37bb_4417_9b54_38b7d8f50406'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maneesh/dev_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy')]), 'shell': False}
+[0.377198] (web_video_server) StdoutLine: {'line': b'[100%] Built target web_video_server\n'}
+[0.378418] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.378906] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.379615] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz\n'}
+[0.379858] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.379978] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[0.380117] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.380257] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[0.380377] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/main.rviz\n'}
+[0.380484] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/map.rviz\n'}
+[0.380610] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[0.380740] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[0.380871] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/nav2_params.yaml\n'}
+[0.381039] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/twist_mux.yaml\n'}
+[0.381190] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[0.381654] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[0.381793] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/depth_camera.xacro\n'}
+[0.381912] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/face.xacro\n'}
+[0.382080] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.382224] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.382364] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[0.382494] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.382618] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.382741] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.383236] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/camera.launch.py\n'}
+[0.383381] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/destination.launch.py\n'}
+[0.390654] (web_video_server) CommandEnded: {'returncode': 0}
+[0.394210] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[0.395221] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[0.395363] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.395422] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/localization_launch.py\n'}
+[0.395474] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/navigation_launch.py\n'}
+[0.395538] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/online_async_launch.py\n'}
+[0.395594] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py\n'}
+[0.395650] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.395729] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.395798] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/worlds/house.world\n'}
+[0.395977] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.396236] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.396465] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.396691] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.396956] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.397213] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.397458] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.397661] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.397868] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.398161] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.398337] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.400701] (-) TimerEvent: {}
+[0.409818] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.410079] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.410366] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.410476] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.412355] (my_bot) CommandEnded: {'returncode': 0}
+[0.439065] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'install'}
+[0.439516] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maneesh/dev_ws/build/web_video_server'], 'cwd': '/home/maneesh/dev_ws/build/web_video_server', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'maneesh'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maneesh'), ('OLDPWD', '/home/maneesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maneesh/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maneesh'), ('JOURNAL_STREAM', '8:55414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maneesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maneesh-IdeaPad-5-15ALC05:@/tmp/.ICE-unix/1855,unix/maneesh-IdeaPad-5-15ALC05:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '0d0cc04b7f534ca09f3bbf50c918e6de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59a66b10_37bb_4417_9b54_38b7d8f50406'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maneesh/dev_ws/build/web_video_server'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy')]), 'shell': False}
+[0.455969] (web_video_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.456659] (web_video_server) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.457291] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/lib/web_video_server/web_video_server\n'}
+[0.457720] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server\n'}
+[0.458078] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server\n'}
+[0.458721] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh\n'}
+[0.459171] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv\n'}
+[0.465083] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/environment/path.sh\n'}
+[0.465433] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/environment/path.dsv\n'}
+[0.465528] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/local_setup.bash\n'}
+[0.465618] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/local_setup.sh\n'}
+[0.465729] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/local_setup.zsh\n'}
+[0.465840] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/local_setup.dsv\n'}
+[0.465972] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/package.dsv\n'}
+[0.473881] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server\n'}
+[0.474433] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake\n'}
+[0.474951] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake\n'}
+[0.475381] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/web_video_server/share/web_video_server/package.xml\n'}
+[0.475841] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server\n'}
+[0.475987] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/libav_streamer.h\n'}
+[0.476223] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/jpeg_streamers.h\n'}
+[0.476584] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/ros_compressed_streamer.h\n'}
+[0.477045] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/image_streamer.h\n'}
+[0.477185] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/h264_streamer.h\n'}
+[0.477266] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/vp9_streamer.h\n'}
+[0.477387] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/multipart_stream.h\n'}
+[0.477469] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/png_streamers.h\n'}
+[0.477594] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/web_video_server.h\n'}
+[0.478223] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/maneesh/dev_ws/install/web_video_server/include/web_video_server/vp8_streamer.h\n'}
+[0.482153] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.482975] (web_video_server) CommandEnded: {'returncode': 0}
+[0.500883] (-) TimerEvent: {}
+[0.546835] (web_video_server) JobEnded: {'identifier': 'web_video_server', 'rc': 0}
+[0.568537] (gazebo_ros2_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.582469] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)\n'}
+[0.584211] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)\n'}
+[0.600953] (-) TimerEvent: {}
+[0.616446] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.619929] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.701069] (-) TimerEvent: {}
+[0.760996] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801165] (-) TimerEvent: {}
+[0.901517] (-) TimerEvent: {}
+[1.001917] (-) TimerEvent: {}
+[1.102239] (-) TimerEvent: {}
+[1.202535] (-) TimerEvent: {}
+[1.297997] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.299664] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302610] (-) TimerEvent: {}
+[1.402910] (-) TimerEvent: {}
+[1.503295] (-) TimerEvent: {}
+[1.603761] (-) TimerEvent: {}
+[1.625695] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)\n'}
+[1.677135] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.703875] (-) TimerEvent: {}
+[1.726507] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.728637] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.734331] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.736399] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.741424] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.741737] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.750472] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.750755] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.750820] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.750901] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.751033] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.751107] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.751181] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.751231] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.751297] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.751345] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.751395] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.751443] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.803997] (-) TimerEvent: {}
+[1.900144] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.902065] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.4.0\n'}
+[1.902474] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.904056] (-) TimerEvent: {}
+[1.919286] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[1.929531] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.934466] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.953293] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.004177] (-) TimerEvent: {}
+[2.006717] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.025549] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.070516] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[2.071583] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.093456] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.100908] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[2.101465] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[2.101941] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.102195] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.102353] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.104287] (-) TimerEvent: {}
+[2.114186] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.114658] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.15.1\n'}
+[2.115132] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.115390] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.117091] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.8.3\n'}
+[2.117656] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.152522] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.170181] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[2.204391] (-) TimerEvent: {}
+[2.218744] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.238959] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[2.283124] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[2.283486] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.283657] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[2.285368] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.12\n'}
+[2.285896] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[2.294978] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)\n'}
+[2.295247] (gazebo_ros2_control) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[2.304495] (-) TimerEvent: {}
+[2.404823] (-) TimerEvent: {}
+[2.473830] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[2.474868] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.504929] (-) TimerEvent: {}
+[2.572602] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.573968] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.574540] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/maneesh/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[2.574691] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.575706] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.575903] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.576629] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.577812] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.578055] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.578303] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.583574] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.605079] (-) TimerEvent: {}
+[2.672995] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[2.676049] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/maneesh/dev_ws/build/gazebo_ros2_control\n'}
+[2.705165] (-) TimerEvent: {}
+[2.719174] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_ros2_control\x1b[0m\n'}
+[2.748309] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[2.805355] (-) TimerEvent: {}
+[2.836766] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[2.905434] (-) TimerEvent: {}
+[3.005885] (-) TimerEvent: {}
+[3.106307] (-) TimerEvent: {}
+[3.206734] (-) TimerEvent: {}
+[3.307242] (-) TimerEvent: {}
+[3.407610] (-) TimerEvent: {}
+[3.507970] (-) TimerEvent: {}
+[3.608581] (-) TimerEvent: {}
+[3.709160] (-) TimerEvent: {}
+[3.809539] (-) TimerEvent: {}
+[3.851898] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gazebo_hardware_plugins\n'}
+[3.909664] (-) TimerEvent: {}
+[4.010027] (-) TimerEvent: {}
+[4.110302] (-) TimerEvent: {}
+[4.210643] (-) TimerEvent: {}
+[4.311157] (-) TimerEvent: {}
+[4.411535] (-) TimerEvent: {}
+[4.511888] (-) TimerEvent: {}
+[4.612260] (-) TimerEvent: {}
+[4.712704] (-) TimerEvent: {}
+[4.813200] (-) TimerEvent: {}
+[4.913586] (-) TimerEvent: {}
+[5.013874] (-) TimerEvent: {}
+[5.114203] (-) TimerEvent: {}
+[5.214554] (-) TimerEvent: {}
+[5.314868] (-) TimerEvent: {}
+[5.415310] (-) TimerEvent: {}
+[5.515617] (-) TimerEvent: {}
+[5.615952] (-) TimerEvent: {}
+[5.716328] (-) TimerEvent: {}
+[5.816721] (-) TimerEvent: {}
+[5.917017] (-) TimerEvent: {}
+[6.017428] (-) TimerEvent: {}
+[6.117718] (-) TimerEvent: {}
+[6.218012] (-) TimerEvent: {}
+[6.318314] (-) TimerEvent: {}
+[6.418618] (-) TimerEvent: {}
+[6.518910] (-) TimerEvent: {}
+[6.619246] (-) TimerEvent: {}
+[6.719625] (-) TimerEvent: {}
+[6.819981] (-) TimerEvent: {}
+[6.920328] (-) TimerEvent: {}
+[7.020647] (-) TimerEvent: {}
+[7.121047] (-) TimerEvent: {}
+[7.221334] (-) TimerEvent: {}
+[7.321656] (-) TimerEvent: {}
+[7.422106] (-) TimerEvent: {}
+[7.522393] (-) TimerEvent: {}
+[7.622756] (-) TimerEvent: {}
+[7.723131] (-) TimerEvent: {}
+[7.823501] (-) TimerEvent: {}
+[7.923901] (-) TimerEvent: {}
+[8.024218] (-) TimerEvent: {}
+[8.124656] (-) TimerEvent: {}
+[8.225105] (-) TimerEvent: {}
+[8.325524] (-) TimerEvent: {}
+[8.425822] (-) TimerEvent: {}
+[8.526142] (-) TimerEvent: {}
+[8.626492] (-) TimerEvent: {}
+[8.726830] (-) TimerEvent: {}
+[8.827158] (-) TimerEvent: {}
+[8.927578] (-) TimerEvent: {}
+[9.027944] (-) TimerEvent: {}
+[9.128276] (-) TimerEvent: {}
+[9.228619] (-) TimerEvent: {}
+[9.328971] (-) TimerEvent: {}
+[9.429358] (-) TimerEvent: {}
+[9.529670] (-) TimerEvent: {}
+[9.630100] (-) TimerEvent: {}
+[9.730507] (-) TimerEvent: {}
+[9.830831] (-) TimerEvent: {}
+[9.931258] (-) TimerEvent: {}
+[10.031603] (-) TimerEvent: {}
+[10.132051] (-) TimerEvent: {}
+[10.232395] (-) TimerEvent: {}
+[10.332785] (-) TimerEvent: {}
+[10.433197] (-) TimerEvent: {}
+[10.533566] (-) TimerEvent: {}
+[10.633936] (-) TimerEvent: {}
+[10.734323] (-) TimerEvent: {}
+[10.834738] (-) TimerEvent: {}
+[10.935167] (-) TimerEvent: {}
+[11.035538] (-) TimerEvent: {}
+[11.135948] (-) TimerEvent: {}
+[11.236310] (-) TimerEvent: {}
+[11.336582] (-) TimerEvent: {}
+[11.436854] (-) TimerEvent: {}
+[11.537252] (-) TimerEvent: {}
+[11.637681] (-) TimerEvent: {}
+[11.738088] (-) TimerEvent: {}
+[11.838523] (-) TimerEvent: {}
+[11.938903] (-) TimerEvent: {}
+[12.039271] (-) TimerEvent: {}
+[12.139605] (-) TimerEvent: {}
+[12.239940] (-) TimerEvent: {}
+[12.340285] (-) TimerEvent: {}
+[12.440609] (-) TimerEvent: {}
+[12.541022] (-) TimerEvent: {}
+[12.641392] (-) TimerEvent: {}
+[12.741713] (-) TimerEvent: {}
+[12.842032] (-) TimerEvent: {}
+[12.942409] (-) TimerEvent: {}
+[13.042796] (-) TimerEvent: {}
+[13.143122] (-) TimerEvent: {}
+[13.243438] (-) TimerEvent: {}
+[13.343849] (-) TimerEvent: {}
+[13.444253] (-) TimerEvent: {}
+[13.544585] (-) TimerEvent: {}
+[13.644876] (-) TimerEvent: {}
+[13.745207] (-) TimerEvent: {}
+[13.845537] (-) TimerEvent: {}
+[13.945971] (-) TimerEvent: {}
+[14.046362] (-) TimerEvent: {}
+[14.146777] (-) TimerEvent: {}
+[14.247210] (-) TimerEvent: {}
+[14.347617] (-) TimerEvent: {}
+[14.448055] (-) TimerEvent: {}
+[14.548401] (-) TimerEvent: {}
+[14.648738] (-) TimerEvent: {}
+[14.749225] (-) TimerEvent: {}
+[14.849654] (-) TimerEvent: {}
+[14.950182] (-) TimerEvent: {}
+[15.050580] (-) TimerEvent: {}
+[15.150981] (-) TimerEvent: {}
+[15.251373] (-) TimerEvent: {}
+[15.351782] (-) TimerEvent: {}
+[15.452111] (-) TimerEvent: {}
+[15.552481] (-) TimerEvent: {}
+[15.652893] (-) TimerEvent: {}
+[15.753362] (-) TimerEvent: {}
+[15.853655] (-) TimerEvent: {}
+[15.953967] (-) TimerEvent: {}
+[16.054316] (-) TimerEvent: {}
+[16.154753] (-) TimerEvent: {}
+[16.255149] (-) TimerEvent: {}
+[16.355467] (-) TimerEvent: {}
+[16.455840] (-) TimerEvent: {}
+[16.556215] (-) TimerEvent: {}
+[16.581078] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[16.656346] (-) TimerEvent: {}
+[16.756860] (-) TimerEvent: {}
+[16.857320] (-) TimerEvent: {}
+[16.957796] (-) TimerEvent: {}
+[17.058361] (-) TimerEvent: {}
+[17.158826] (-) TimerEvent: {}
+[17.259240] (-) TimerEvent: {}
+[17.359689] (-) TimerEvent: {}
+[17.460029] (-) TimerEvent: {}
+[17.560448] (-) TimerEvent: {}
+[17.639157] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[17.649487] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[17.660569] (-) TimerEvent: {}
+[17.678779] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[17.679265] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maneesh/dev_ws/build/gazebo_ros2_control'], 'cwd': '/home/maneesh/dev_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'maneesh'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maneesh'), ('OLDPWD', '/home/maneesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maneesh/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maneesh'), ('JOURNAL_STREAM', '8:55414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maneesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maneesh-IdeaPad-5-15ALC05:@/tmp/.ICE-unix/1855,unix/maneesh-IdeaPad-5-15ALC05:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '0d0cc04b7f534ca09f3bbf50c918e6de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59a66b10_37bb_4417_9b54_38b7d8f50406'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maneesh/dev_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy')]), 'shell': False}
+[17.689341] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.689754] (gazebo_ros2_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.690193] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[17.690369] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[17.690609] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[17.690823] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[17.691327] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[17.691530] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[17.691663] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[17.692024] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml\n'}
+[17.692260] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[17.692485] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[17.692717] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[17.693016] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[17.693234] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[17.693500] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[17.693708] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[17.693922] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[17.694134] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[17.694355] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[17.694530] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[17.704415] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[17.704666] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[17.704806] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.705068] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.705276] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.705554] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[17.705682] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[17.705903] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[17.707699] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[17.759932] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[17.762647] (-) TimerEvent: {}
+[17.762757] (gazebo_ros2_control_demos) JobStarted: {'identifier': 'gazebo_ros2_control_demos'}
+[17.772307] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'cmake'}
+[17.773006] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'build'}
+[17.773225] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maneesh/dev_ws/build/gazebo_ros2_control_demos', '--', '-j16', '-l16'], 'cwd': '/home/maneesh/dev_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'maneesh'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maneesh'), ('OLDPWD', '/home/maneesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maneesh/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maneesh'), ('JOURNAL_STREAM', '8:55414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maneesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maneesh-IdeaPad-5-15ALC05:@/tmp/.ICE-unix/1855,unix/maneesh-IdeaPad-5-15ALC05:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '0d0cc04b7f534ca09f3bbf50c918e6de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59a66b10_37bb_4417_9b54_38b7d8f50406'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maneesh/dev_ws/build/gazebo_ros2_control_demos'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control:/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[17.838378] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 80%] Built target example_velocity\n'}
+[17.838650] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 80%] Built target example_gripper\n'}
+[17.838714] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 80%] Built target example_effort\n'}
+[17.838770] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 80%] Built target example_diff_drive\n'}
+[17.839258] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_position\n'}
+[17.850233] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[17.862803] (-) TimerEvent: {}
+[17.881782] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'install'}
+[17.882128] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maneesh/dev_ws/build/gazebo_ros2_control_demos'], 'cwd': '/home/maneesh/dev_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'maneesh'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maneesh'), ('OLDPWD', '/home/maneesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maneesh/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maneesh'), ('JOURNAL_STREAM', '8:55414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maneesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maneesh-IdeaPad-5-15ALC05:@/tmp/.ICE-unix/1855,unix/maneesh-IdeaPad-5-15ALC05:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '0d0cc04b7f534ca09f3bbf50c918e6de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59a66b10_37bb_4417_9b54_38b7d8f50406'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/home/maneesh/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maneesh/dev_ws/build/gazebo_ros2_control_demos'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maneesh/dev_ws/install/gazebo_ros2_control:/home/maneesh/dev_ws/install/web_video_server:/home/maneesh/dev_ws/install/my_bot:/home/maneesh/dev_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[17.892786] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.893170] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.893711] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py\n'}
+[17.893856] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py\n'}
+[17.893988] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py\n'}
+[17.894097] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py\n'}
+[17.894357] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py\n'}
+[17.894597] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml\n'}
+[17.894716] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml\n'}
+[17.894841] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml\n'}
+[17.894964] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml\n'}
+[17.895112] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml\n'}
+[17.895466] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf\n'}
+[17.895579] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf\n'}
+[17.895670] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf\n'}
+[17.895778] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf\n'}
+[17.895902] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf\n'}
+[17.896321] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position\n'}
+[17.896482] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity\n'}
+[17.896682] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort\n'}
+[17.896879] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper\n'}
+[17.897074] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive\n'}
+[17.897368] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos\n'}
+[17.897585] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos\n'}
+[17.897803] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh\n'}
+[17.898011] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv\n'}
+[17.898222] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh\n'}
+[17.898428] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv\n'}
+[17.898632] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash\n'}
+[17.898832] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh\n'}
+[17.899030] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh\n'}
+[17.899234] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv\n'}
+[17.899408] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv\n'}
+[17.908957] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos\n'}
+[17.909210] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake\n'}
+[17.909429] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake\n'}
+[17.909678] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maneesh/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml\n'}
+[17.911907] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[17.962968] (-) TimerEvent: {}
+[17.963778] (gazebo_ros2_control_demos) JobEnded: {'identifier': 'gazebo_ros2_control_demos', 'rc': 0}
+[17.964522] (-) EventReactorShutdown: {}

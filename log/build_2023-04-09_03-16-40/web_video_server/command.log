@@ -1,0 +1,4 @@
+Invoking command in '/home/maneesh/dev_ws/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maneesh/dev_ws/build/web_video_server -- -j16 -l16
+Invoked command in '/home/maneesh/dev_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maneesh/dev_ws/build/web_video_server -- -j16 -l16
+Invoking command in '/home/maneesh/dev_ws/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maneesh/dev_ws/build/web_video_server
+Invoked command in '/home/maneesh/dev_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maneesh/dev_ws/build/web_video_server

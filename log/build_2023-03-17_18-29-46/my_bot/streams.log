@@ -1,0 +1,54 @@
+[0.017s] Invoking command in '/home/maneesh/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maneesh/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maneesh/dev_ws/install/my_bot
+[0.075s] -- The C compiler identification is GNU 9.4.0
+[0.138s] -- The CXX compiler identification is GNU 9.4.0
+[0.145s] -- Check for working C compiler: /usr/bin/cc
+[0.224s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.225s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.335s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.431s] -- Detecting CXX compiler ABI info
+[0.532s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.548s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.571s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.571s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.712s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.738s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.809s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.814s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.814s] -- Added test 'lint_cmake' to check CMake code style
+[0.815s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.818s] -- Added test 'xmllint' to check XML markup files
+[0.819s] -- Configuring done
+[0.821s] -- Generating done
+[0.821s] -- Build files have been written to: /home/maneesh/dev_ws/build/my_bot
+[0.826s] Invoked command in '/home/maneesh/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maneesh/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maneesh/dev_ws/install/my_bot
+[0.828s] Invoking command in '/home/maneesh/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maneesh/dev_ws/build/my_bot -- -j16 -l16
+[0.870s] Invoked command in '/home/maneesh/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maneesh/dev_ws/build/my_bot -- -j16 -l16
+[0.910s] Invoking command in '/home/maneesh/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maneesh/dev_ws/build/my_bot
+[0.918s] -- Install configuration: ""
+[0.918s] -- Execute custom install script
+[0.919s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.929s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.939s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.949s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.959s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.974s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.990s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.999s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.009s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.023s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.037s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.049s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.062s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.071s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.080s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/package.dsv
+[1.088s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.097s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.112s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.127s] -- Symlinking: /home/maneesh/dev_ws/install/my_bot/share/my_bot/package.xml
+[1.141s] Invoked command in '/home/maneesh/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maneesh/dev_ws/build/my_bot
